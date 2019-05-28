@@ -16,5 +16,7 @@ public class Driver extends DriverSetup {
        return this.driver.getCurrentUrl();
     }
 
-    public void finish() { this.driver.quit(); }
+    public void finish() {
+        this.driver.quit();
+    }
 }
